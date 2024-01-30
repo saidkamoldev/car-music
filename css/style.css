@@ -1,0 +1,807 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body{
+background-color: #0d0d0d;
+}
+.box-bg-foto{
+  background-image: url(../img/bg-car-foto.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 1000px;
+  left: 0px;
+  top: 0px;
+}
+.lines{
+  background-image: url(../img/linesss.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 25px;
+ margin-top: 0;
+ margin-bottom: 0;
+ align-items: center;
+
+}
+ul{
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+width: 550px;
+height: 29px;
+
+
+
+}
+a{
+  font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 120%;
+text-decoration: none;
+color: #ffff;
+
+}
+.header-nav{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+padding-bottom: 0;
+}
+.nav-main{
+ align-items: flex-start;
+}
+
+/* media-title */
+.media-title{
+  margin-top: 90px;
+  margin-bottom: 0;
+}
+.car-title{
+
+  width: 480px;
+  height: 120px;
+  font-family: 'Anton', sans-serif;
+
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 125%;
+  /* identical to box height, or 188px */
+
+  text-align: center;
+
+  /* accent */
+
+  color: #DB3138;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dot{
+
+  display: flex;
+  justify-content: space-between;
+  width: 146.36px;
+  height: 14.14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 0;
+
+
+}
+.dot-in{
+  width: 10px;
+  height: 10px;
+
+  /* accent */
+
+  background: #DB3138;
+  transform: rotate(-45deg)
+}
+.normal-text{
+  width: 480px;
+  height: auto;
+  font-family:'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  /* or 48px */
+
+  text-align: center;
+
+  /* white */
+
+  color: #FFFFFF;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.clic-on{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DB3138 ;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  width: 140px;
+height: 60px;
+border-radius:2%;
+margin-top: 50px;
+margin-bottom: 0;
+
+
+}
+.services{
+  padding: 10px;
+margin-bottom: 0;
+  position: absolute;
+  width: auto;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Anton', sans-serif ;
+  font-size: 25px;
+}
+
+
+
+
+
+
+/* box-bg-foote */
+
+.item{
+
+  border-right:solid 1px cornsilk ;
+
+
+
+}
+
+.box-bg-footer{
+  display: flex;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-top: solid 1px cornsilk;
+  border-bottom: solid 1px cornsilk;
+}
+.bg-footer-title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  /* or 34px */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+  /* accent */
+
+  color: #FFFFFF;
+}
+.text-normal{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 140%;
+  /* or 34px */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* accent */
+padding-top: 15px;
+  color: #DB3138;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.cals{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  width: 510px;
+  height: 170px;
+}
+
+
+/* middle-media */
+
+
+/* middle-text */
+.middle-media{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: 1250px;
+  margin-bottom:0;
+  padding-bottom:0;
+  height: 745px;
+}
+.mid-title{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 140%;
+  /* or 73px */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* white */
+
+  color: #FFFFFF;
+}
+.mid-text-lorem{
+  font-family: 'Times New Roman', Times, serif;
+  width: 440px;
+  font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+color: #FFFFFF;
+margin-top: 20px;
+margin-bottom: 0;
+}
+.mid-dot{
+  display: flex;
+  justify-content: space-between;
+  width: 126.36px;
+  height: 10.14px;
+ margin-top: 40px;
+  margin-bottom: 0;
+}
+.mid-dot-in{
+  width: 7px;
+  height: 7px;
+
+  /* accent */
+
+  background: #DB3138;
+  transform: rotate(-45deg)
+
+}
+.middle-text{
+
+  width: 450px;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+
+
+/* middle-containe */
+.mid-container1{
+  margin-bottom: 0;
+width: 250px;
+height: 300px;
+}
+.middle-container{
+  margin-left: 80px;
+ display: flex;
+ height: 1000px;
+}
+
+
+.in-container{
+  border: solid 1px #898989;
+  text-align: center;
+}
+.mid-container2{
+margin-top: 40px;
+margin-bottom: 0;
+width: 250px;
+}
+span{
+  font-size: 20px;
+  color: #DB3138;
+}
+.number{
+  color: #DB3138;
+}
+.mid-normal-text{
+  color: #FFFFFF;
+}
+
+
+
+/*
+<!-- car-foto-carusel --> */
+.car-foto{
+  width: 1300px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.main-size{
+  display: flex;
+  justify-content: space-around;
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+}
+
+.carusel-buttom-left{
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  /* accent */
+  border: 3px solid #DB3138;
+  transform: rotate(-45deg);
+  margin-top: auto;
+  margin-bottom: auto;
+
+
+}
+.white-line-left{
+  width: 15px;
+  height: 15px;
+  border-bottom: solid 1px whitesmoke;
+  border-right: solid 1px whitesmoke;
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+
+.carusel-buttom-right{
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  /* accent */
+  border: 3px solid #DB3138;
+  transform: rotate(-45deg);
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.white-line{
+  width: 15px;
+  height: 15px;
+  border-top: solid 1px whitesmoke;
+  border-left: solid 1px whitesmoke;
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+
+.cars-photos{
+  background-image: url(../img/wolswagen-golf.jpg)  ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 350px;
+}
+
+.red-div{
+  width: 280px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DB3138;
+position: relative;
+ top: 260px;
+}
+
+.red-text{
+  font-size:'Anton', sans-serif ;
+  position: relative;
+  font-weight: 800;
+  top: 220px;
+  color: whitesmoke;
+  font-size: 17px;
+  width: 210px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+
+
+
+  /* .matrial-box */
+
+  .material-box{
+    display: flex;
+justify-content: space-between;
+width: 1100px;
+height: 662.43px;
+margin-right: auto;
+margin-left: auto;
+ margin-bottom: 0;
+ padding-bottom: 0;
+
+  }
+.about-box{
+ width:460px ;
+}
+  .car-icon{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+
+  }
+  .car-icon-title{
+    color: whitesmoke;
+    font-size: 18px;
+    text-transform: uppercase;
+
+  }
+  .box-lorem{
+    color: whitesmoke;
+    text-align:justify;
+    margin-top:15px;
+   margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .bmw-box{
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .box-radus-left{
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    /* accent */
+    border: 3px solid #DB3138;
+    transform: rotate(-45deg);
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .box-radus-right{
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    /* accent */
+    border: 3px solid #DB3138;
+    transform: rotate(-45deg);
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .box-white-line-left{
+    width: 15px;
+    height: 15px;
+    border-top: solid 1px whitesmoke;
+    border-left: solid 1px whitesmoke;
+    position: relative;
+    left: 15px;
+    top: 15px;
+  }
+  .box-white-line-right{
+    width: 15px;
+  height: 15px;
+  border-bottom: solid 1px whitesmoke;
+  border-right: solid 1px whitesmoke;
+  position: relative;
+  left: 15px;
+  top: 15px;
+  }
+  .information-box{
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .information-box-text{
+    margin-left: auto;
+    margin-right: auto;
+   width: 350px;
+   text-align:justify;
+   color: whitesmoke;
+  }
+
+
+
+  /* usluga */
+ .usluga{
+  color: whitesmoke;
+  text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-top: 100px;
+  margin-bottom: 80px;
+  padding-bottom: 0;
+
+ }
+ .servise-red{
+  background-color: #DB3138;
+  color: whitesmoke;
+  width: 160px;
+height: 55px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+ }
+ .servise-bg-not{
+  color: whitesmoke;
+
+ }
+ .detelling-servise{
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+  width: 450px;
+  height: 100px;
+  align-items: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+
+ /* servise-main */
+
+ .servise-main{
+  margin-top: 50px;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+ }
+.main-icon{
+  border: solid 1px whitesmoke;
+  width: 250px;
+height: 328px;
+margin-bottom: 10px;
+}
+
+.protect-plyonka{
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif ;
+  margin-top: 30px;
+  margin-left: 30px;
+
+
+}
+.protect-plyonka-text{
+  color: whitesmoke;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+}
+.more-aboy-text{
+  color: whitesmoke;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.more-about{
+  margin-top: 20px;
+  display: block;
+ margin-left: 80px;
+  background-color: #DB3138;
+  width: 70px;
+  height: 30px;
+}
+.img-main-icon{
+margin-top: 40px;
+margin-left: 80px;
+
+}
+.car-ruyhat{
+  margin-top: 30px;
+  margin-left: 95px;
+}
+
+.car-oil{
+  margin-top: 50px;
+}
+.car-iconka{
+  margin-top: 30px;
+}
+
+
+/* mersadez  */
+
+.galeria-one{
+width: 1515px;
+height: 720px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 80px;
+}
+.mersadez{
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.galeria-box-one{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carusel-foto{
+  width: 310px;
+  height: 240px;
+}
+.galeria-box-two{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.galeria-box-three{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* name-tefon-box */
+
+.name-tefon-box{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.name{
+  border: solid 1px whitesmoke;
+ width: 450px;
+ background-color: #0d0d0d;
+ height: 40px;
+}
+.telefon{
+  border: solid 1px whitesmoke;
+  width: 450px;
+  background-color: #0d0d0d;
+  height: 40px;
+}
+.name::placeholder{
+ position: relative;
+ padding-left: 20px;
+ padding-top: 10px;
+}
+.telefon::placeholder{
+  position: relative;
+  padding-left: 20px;
+  padding-top: 10px;
+ }
+
+ /* camment-box */
+.camment-box{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.comment{
+  width: 800px;
+  height: 200px;
+  background-color: #0d0d0d;
+  border: solid 1px whitesmoke;
+}
+.all-icon{
+  border: solid 1px whitesmoke;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 23px;
+  margin-left: 100px;
+}
+.comment::placeholder{
+  color: rgb(94, 97, 99);
+  font-size: 20px;
+   padding-left: 30px;
+}
+
+
+/* .sent-button */
+.sent-button{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 120px;
+  width: 1000px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.insent-button{
+  background-color: #DB3138;
+  width: 150px;
+  height: 80px;
+  margin-top: 30px;
+}
+.sent-messege{
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.location-about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-text-location{
+  color: #ffffff;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.telefon-about{
+  display: flex;
+  width: 600px;
+  align-items: center;
+  justify-content: space-between;
+}
+.telefon-number{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.messege-about{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.about-text-messege{
+  color: #ffffff;
+  margin-left: 20px;
+}
+.about-text-telefon{
+  color: #ffffff;
+  margin-left: 20px;
+}
+.main-footer{
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .red-dev{
+  width: 280px;
+  height: 70px;
+
+  background-color: #DB3138;
+position: relative;
+ top: 190px;
+}
+.red-text{
+position: relative;
+top: 280px;
+} */
